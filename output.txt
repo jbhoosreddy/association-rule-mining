@@ -1,0 +1,143 @@
+/Users/vinaygoyal/anaconda/bin/python /Users/vinaygoyal/PycharmProjects/DataMining/Apriori.py
+3
+{'body': set(['G72_UP', 'G59_UP']), 'head': set(['G82_Down']), 'rule': ['G82_Down', 'G72_UP', 'G59_UP']}
+{'body': set(['G82_Down', 'G59_UP']), 'head': set(['G72_UP']), 'rule': ['G72_UP', 'G82_Down', 'G59_UP']}
+{'body': set(['G72_UP', 'G82_Down']), 'head': set(['G59_UP']), 'rule': ['G59_UP', 'G72_UP', 'G82_Down']}
+{'body': set(['G59_UP']), 'head': set(['G72_UP', 'G82_Down']), 'rule': ['G72_UP', 'G82_Down', 'G59_UP']}
+{'body': set(['G72_UP']), 'head': set(['G82_Down', 'G59_UP']), 'rule': ['G82_Down', 'G59_UP', 'G72_UP']}
+{'body': set(['G82_Down']), 'head': set(['G72_UP', 'G59_UP']), 'rule': ['G72_UP', 'G59_UP', 'G82_Down']}
+{'body': set(['G96_Down', 'G59_UP']), 'head': set(['G72_UP']), 'rule': ['G72_UP', 'G96_Down', 'G59_UP']}
+{'body': set(['G72_UP', 'G96_Down']), 'head': set(['G59_UP']), 'rule': ['G59_UP', 'G72_UP', 'G96_Down']}
+{'body': set(['G72_UP', 'G59_UP']), 'head': set(['G96_Down']), 'rule': ['G96_Down', 'G72_UP', 'G59_UP']}
+{'body': set(['G96_Down']), 'head': set(['G72_UP', 'G59_UP']), 'rule': ['G72_UP', 'G59_UP', 'G96_Down']}
+{'body': set(['G59_UP']), 'head': set(['G72_UP', 'G96_Down']), 'rule': ['G72_UP', 'G96_Down', 'G59_UP']}
+{'body': set(['G72_UP']), 'head': set(['G96_Down', 'G59_UP']), 'rule': ['G96_Down', 'G59_UP', 'G72_UP']}
+2
+{'body': set(['G10_Down']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G10_Down']}
+{'body': set(['G38_Down']), 'head': set(['G10_Down']), 'rule': ['G10_Down', 'G38_Down']}
+{'body': set(['G88_Down']), 'head': set(['G41_Down']), 'rule': ['G41_Down', 'G88_Down']}
+{'body': set(['G41_Down']), 'head': set(['G88_Down']), 'rule': ['G88_Down', 'G41_Down']}
+{'body': set(['G32_Down']), 'head': set(['G59_UP']), 'rule': ['G59_UP', 'G32_Down']}
+{'body': set(['G59_UP']), 'head': set(['G32_Down']), 'rule': ['G32_Down', 'G59_UP']}
+{'body': set(['G6_UP']), 'head': set(['G59_UP']), 'rule': ['G59_UP', 'G6_UP']}
+{'body': set(['G59_UP']), 'head': set(['G6_UP']), 'rule': ['G6_UP', 'G59_UP']}
+{'body': set(['G10_Down']), 'head': set(['G59_UP']), 'rule': ['G59_UP', 'G10_Down']}
+{'body': set(['G59_UP']), 'head': set(['G10_Down']), 'rule': ['G10_Down', 'G59_UP']}
+{'body': set(['G91_UP']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G91_UP']}
+{'body': set(['G38_Down']), 'head': set(['G91_UP']), 'rule': ['G91_UP', 'G38_Down']}
+{'body': set(['G38_Down']), 'head': set(['G2_Down']), 'rule': ['G2_Down', 'G38_Down']}
+{'body': set(['G2_Down']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G2_Down']}
+{'body': set(['G59_UP']), 'head': set(['G1_UP']), 'rule': ['G1_UP', 'G59_UP']}
+{'body': set(['G1_UP']), 'head': set(['G59_UP']), 'rule': ['G59_UP', 'G1_UP']}
+{'body': set(['G67_UP']), 'head': set(['G1_UP']), 'rule': ['G1_UP', 'G67_UP']}
+{'body': set(['G1_UP']), 'head': set(['G67_UP']), 'rule': ['G67_UP', 'G1_UP']}
+{'body': set(['G96_Down']), 'head': set(['G59_UP']), 'rule': ['G59_UP', 'G96_Down']}
+{'body': set(['G59_UP']), 'head': set(['G96_Down']), 'rule': ['G96_Down', 'G59_UP']}
+{'body': set(['G13_Down']), 'head': set(['G28_Down']), 'rule': ['G28_Down', 'G13_Down']}
+{'body': set(['G28_Down']), 'head': set(['G13_Down']), 'rule': ['G13_Down', 'G28_Down']}
+{'body': set(['G10_Down']), 'head': set(['G28_Down']), 'rule': ['G28_Down', 'G10_Down']}
+{'body': set(['G28_Down']), 'head': set(['G10_Down']), 'rule': ['G10_Down', 'G28_Down']}
+{'body': set(['G32_Down']), 'head': set(['G28_Down']), 'rule': ['G28_Down', 'G32_Down']}
+{'body': set(['G28_Down']), 'head': set(['G32_Down']), 'rule': ['G32_Down', 'G28_Down']}
+{'body': set(['G38_Down']), 'head': set(['G28_Down']), 'rule': ['G28_Down', 'G38_Down']}
+{'body': set(['G28_Down']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G28_Down']}
+{'body': set(['G87_UP']), 'head': set(['G28_Down']), 'rule': ['G28_Down', 'G87_UP']}
+{'body': set(['G28_Down']), 'head': set(['G87_UP']), 'rule': ['G87_UP', 'G28_Down']}
+{'body': set(['G6_UP']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G6_UP']}
+{'body': set(['G38_Down']), 'head': set(['G6_UP']), 'rule': ['G6_UP', 'G38_Down']}
+{'body': set(['G38_Down']), 'head': set(['G1_UP']), 'rule': ['G1_UP', 'G38_Down']}
+{'body': set(['G1_UP']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G1_UP']}
+{'body': set(['G32_Down']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G32_Down']}
+{'body': set(['G38_Down']), 'head': set(['G32_Down']), 'rule': ['G32_Down', 'G38_Down']}
+{'body': set(['G59_UP']), 'head': set(['G28_Down']), 'rule': ['G28_Down', 'G59_UP']}
+{'body': set(['G28_Down']), 'head': set(['G59_UP']), 'rule': ['G59_UP', 'G28_Down']}
+{'body': set(['G13_Down']), 'head': set(['G72_UP']), 'rule': ['G72_UP', 'G13_Down']}
+{'body': set(['G72_UP']), 'head': set(['G13_Down']), 'rule': ['G13_Down', 'G72_UP']}
+{'body': set(['G38_Down']), 'head': set(['G94_UP']), 'rule': ['G94_UP', 'G38_Down']}
+{'body': set(['G94_UP']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G94_UP']}
+{'body': set(['G47_UP']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G47_UP']}
+{'body': set(['G38_Down']), 'head': set(['G47_UP']), 'rule': ['G47_UP', 'G38_Down']}
+{'body': set(['G38_Down']), 'head': set(['G52_Down']), 'rule': ['G52_Down', 'G38_Down']}
+{'body': set(['G52_Down']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G52_Down']}
+{'body': set(['G10_Down']), 'head': set(['G1_UP']), 'rule': ['G1_UP', 'G10_Down']}
+{'body': set(['G1_UP']), 'head': set(['G10_Down']), 'rule': ['G10_Down', 'G1_UP']}
+{'body': set(['G72_UP']), 'head': set(['G32_Down']), 'rule': ['G32_Down', 'G72_UP']}
+{'body': set(['G32_Down']), 'head': set(['G72_UP']), 'rule': ['G72_UP', 'G32_Down']}
+{'body': set(['G13_Down']), 'head': set(['G6_UP']), 'rule': ['G6_UP', 'G13_Down']}
+{'body': set(['G6_UP']), 'head': set(['G13_Down']), 'rule': ['G13_Down', 'G6_UP']}
+{'body': set(['G13_Down']), 'head': set(['G59_UP']), 'rule': ['G59_UP', 'G13_Down']}
+{'body': set(['G59_UP']), 'head': set(['G13_Down']), 'rule': ['G13_Down', 'G59_UP']}
+{'body': set(['G28_Down']), 'head': set(['G52_Down']), 'rule': ['G52_Down', 'G28_Down']}
+{'body': set(['G52_Down']), 'head': set(['G28_Down']), 'rule': ['G28_Down', 'G52_Down']}
+{'body': set(['G72_UP']), 'head': set(['G1_UP']), 'rule': ['G1_UP', 'G72_UP']}
+{'body': set(['G1_UP']), 'head': set(['G72_UP']), 'rule': ['G72_UP', 'G1_UP']}
+{'body': set(['G67_UP']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G67_UP']}
+{'body': set(['G38_Down']), 'head': set(['G67_UP']), 'rule': ['G67_UP', 'G38_Down']}
+{'body': set(['G28_Down']), 'head': set(['G88_Down']), 'rule': ['G88_Down', 'G28_Down']}
+{'body': set(['G88_Down']), 'head': set(['G28_Down']), 'rule': ['G28_Down', 'G88_Down']}
+{'body': set(['G72_UP']), 'head': set(['G97_Down']), 'rule': ['G97_Down', 'G72_UP']}
+{'body': set(['G97_Down']), 'head': set(['G72_UP']), 'rule': ['G72_UP', 'G97_Down']}
+{'body': set(['G32_Down']), 'head': set(['G6_UP']), 'rule': ['G6_UP', 'G32_Down']}
+{'body': set(['G6_UP']), 'head': set(['G32_Down']), 'rule': ['G32_Down', 'G6_UP']}
+{'body': set(['G70_Down']), 'head': set(['G10_Down']), 'rule': ['G10_Down', 'G70_Down']}
+{'body': set(['G10_Down']), 'head': set(['G70_Down']), 'rule': ['G70_Down', 'G10_Down']}
+{'body': set(['G65_Down']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G65_Down']}
+{'body': set(['G38_Down']), 'head': set(['G65_Down']), 'rule': ['G65_Down', 'G38_Down']}
+{'body': set(['G72_UP']), 'head': set(['G96_Down']), 'rule': ['G96_Down', 'G72_UP']}
+{'body': set(['G96_Down']), 'head': set(['G72_UP']), 'rule': ['G72_UP', 'G96_Down']}
+{'body': set(['G28_Down']), 'head': set(['G2_Down']), 'rule': ['G2_Down', 'G28_Down']}
+{'body': set(['G2_Down']), 'head': set(['G28_Down']), 'rule': ['G28_Down', 'G2_Down']}
+{'body': set(['G10_Down']), 'head': set(['G94_UP']), 'rule': ['G94_UP', 'G10_Down']}
+{'body': set(['G94_UP']), 'head': set(['G10_Down']), 'rule': ['G10_Down', 'G94_UP']}
+{'body': set(['G38_Down']), 'head': set(['G41_Down']), 'rule': ['G41_Down', 'G38_Down']}
+{'body': set(['G41_Down']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G41_Down']}
+{'body': set(['G13_Down']), 'head': set(['G82_Down']), 'rule': ['G82_Down', 'G13_Down']}
+{'body': set(['G82_Down']), 'head': set(['G13_Down']), 'rule': ['G13_Down', 'G82_Down']}
+{'body': set(['G54_UP']), 'head': set(['G1_UP']), 'rule': ['G1_UP', 'G54_UP']}
+{'body': set(['G1_UP']), 'head': set(['G54_UP']), 'rule': ['G54_UP', 'G1_UP']}
+{'body': set(['G8_UP']), 'head': set(['G88_Down']), 'rule': ['G88_Down', 'G8_UP']}
+{'body': set(['G88_Down']), 'head': set(['G8_UP']), 'rule': ['G8_UP', 'G88_Down']}
+{'body': set(['G24_Down']), 'head': set(['G88_Down']), 'rule': ['G88_Down', 'G24_Down']}
+{'body': set(['G88_Down']), 'head': set(['G24_Down']), 'rule': ['G24_Down', 'G88_Down']}
+{'body': set(['G38_Down']), 'head': set(['G88_Down']), 'rule': ['G88_Down', 'G38_Down']}
+{'body': set(['G88_Down']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G88_Down']}
+{'body': set(['G59_UP']), 'head': set(['G82_Down']), 'rule': ['G82_Down', 'G59_UP']}
+{'body': set(['G82_Down']), 'head': set(['G59_UP']), 'rule': ['G59_UP', 'G82_Down']}
+{'body': set(['G10_Down']), 'head': set(['G88_Down']), 'rule': ['G88_Down', 'G10_Down']}
+{'body': set(['G88_Down']), 'head': set(['G10_Down']), 'rule': ['G10_Down', 'G88_Down']}
+{'body': set(['G54_UP']), 'head': set(['G24_Down']), 'rule': ['G24_Down', 'G54_UP']}
+{'body': set(['G24_Down']), 'head': set(['G54_UP']), 'rule': ['G54_UP', 'G24_Down']}
+{'body': set(['G59_UP']), 'head': set(['G88_Down']), 'rule': ['G88_Down', 'G59_UP']}
+{'body': set(['G88_Down']), 'head': set(['G59_UP']), 'rule': ['G59_UP', 'G88_Down']}
+{'body': set(['G72_UP']), 'head': set(['G82_Down']), 'rule': ['G82_Down', 'G72_UP']}
+{'body': set(['G82_Down']), 'head': set(['G72_UP']), 'rule': ['G72_UP', 'G82_Down']}
+{'body': set(['G54_UP']), 'head': set(['G88_Down']), 'rule': ['G88_Down', 'G54_UP']}
+{'body': set(['G88_Down']), 'head': set(['G54_UP']), 'rule': ['G54_UP', 'G88_Down']}
+{'body': set(['G72_UP']), 'head': set(['G59_UP']), 'rule': ['G59_UP', 'G72_UP']}
+{'body': set(['G59_UP']), 'head': set(['G72_UP']), 'rule': ['G72_UP', 'G59_UP']}
+{'body': set(['G70_Down']), 'head': set(['G1_UP']), 'rule': ['G1_UP', 'G70_Down']}
+{'body': set(['G1_UP']), 'head': set(['G70_Down']), 'rule': ['G70_Down', 'G1_UP']}
+{'body': set(['G96_Down']), 'head': set(['G82_Down']), 'rule': ['G82_Down', 'G96_Down']}
+{'body': set(['G82_Down']), 'head': set(['G96_Down']), 'rule': ['G96_Down', 'G82_Down']}
+{'body': set(['G70_Down']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G70_Down']}
+{'body': set(['G38_Down']), 'head': set(['G70_Down']), 'rule': ['G70_Down', 'G38_Down']}
+{'body': set(['G10_Down']), 'head': set(['G47_UP']), 'rule': ['G47_UP', 'G10_Down']}
+{'body': set(['G47_UP']), 'head': set(['G10_Down']), 'rule': ['G10_Down', 'G47_UP']}
+{'body': set(['G6_UP']), 'head': set(['G28_Down']), 'rule': ['G28_Down', 'G6_UP']}
+{'body': set(['G28_Down']), 'head': set(['G6_UP']), 'rule': ['G6_UP', 'G28_Down']}
+{'body': set(['G87_UP']), 'head': set(['G88_Down']), 'rule': ['G88_Down', 'G87_UP']}
+{'body': set(['G88_Down']), 'head': set(['G87_UP']), 'rule': ['G87_UP', 'G88_Down']}
+{'body': set(['G87_UP']), 'head': set(['G59_UP']), 'rule': ['G59_UP', 'G87_UP']}
+{'body': set(['G59_UP']), 'head': set(['G87_UP']), 'rule': ['G87_UP', 'G59_UP']}
+{'body': set(['G97_Down']), 'head': set(['G82_Down']), 'rule': ['G82_Down', 'G97_Down']}
+{'body': set(['G82_Down']), 'head': set(['G97_Down']), 'rule': ['G97_Down', 'G82_Down']}
+{'body': set(['G28_Down']), 'head': set(['G41_Down']), 'rule': ['G41_Down', 'G28_Down']}
+{'body': set(['G41_Down']), 'head': set(['G28_Down']), 'rule': ['G28_Down', 'G41_Down']}
+{'body': set(['G47_UP']), 'head': set(['G28_Down']), 'rule': ['G28_Down', 'G47_UP']}
+{'body': set(['G28_Down']), 'head': set(['G47_UP']), 'rule': ['G47_UP', 'G28_Down']}
+{'body': set(['G38_Down']), 'head': set(['G59_UP']), 'rule': ['G59_UP', 'G38_Down']}
+{'body': set(['G59_UP']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G59_UP']}
+{'body': set(['G72_UP']), 'head': set(['G38_Down']), 'rule': ['G38_Down', 'G72_UP']}
+{'body': set(['G38_Down']), 'head': set(['G72_UP']), 'rule': ['G72_UP', 'G38_Down']}
+
+Process finished with exit code 0
